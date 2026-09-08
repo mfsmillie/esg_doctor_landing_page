@@ -54,13 +54,15 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 z-10 translate-y-1/2">
-        <img
-          src="/images/hero/ENDO-teeth-Display_X3.png"
-          alt=""
-          className="w-full h-auto block"
-        />
-      </div>
+      <div
+        className="absolute bottom-0 left-0 right-0 z-10 translate-y-1/2 h-[14px]"
+        style={{
+          backgroundImage:
+            'radial-gradient(circle at 50% 0%, white 6px, transparent 6.5px)',
+          backgroundSize: '16px 14px',
+          backgroundRepeat: 'repeat-x',
+        }}
+      />
 
       <a
         href="#obesity-care"
