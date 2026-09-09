@@ -14,7 +14,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
-          Endoscopic Sleeve Gastroplasty
+          Automated Stomach Remodeling
           <span className="block mt-2">
             with{' '}
             <span className="text-white">
