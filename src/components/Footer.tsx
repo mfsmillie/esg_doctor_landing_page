@@ -22,6 +22,7 @@ export default function Footer() {
             <a href="#is-it-right" className="text-white/70 text-sm hover:text-white transition-colors">
               Is It Right for You
             </a>
+            <span className="text-white/40 text-xs font-condensed">MK00037 Rev. A 06/2026</span>
           </nav>
         </div>
 
