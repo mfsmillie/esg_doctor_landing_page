@@ -1,21 +1,21 @@
 const steps = [
   {
-    image: '/images/how-it-works/through_mouth.png',
+    image: '/images/how-it-works/1.png',
     title: 'Access through the mouth',
     description: 'No external incisions',
   },
   {
-    image: '/images/how-it-works/sutures_placed.png',
+    image: '/images/how-it-works/2.png',
     title: 'Sutures placed',
     description: 'Inside the stomach',
   },
   {
-    image: '/images/how-it-works/volume_reduced.png',
+    image: '/images/how-it-works/3.png',
     title: 'Volume reduced',
     description: 'To support smaller portions',
   },
   {
-    image: '/images/how-it-works/no_stomach_removal.png',
+    image: '/images/how-it-works/4.png',
     title: 'No stomach removal',
     description: 'An anatomy-preserving approach',
   },
