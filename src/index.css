@@ -9,6 +9,7 @@
   body {
     @apply font-condensed text-brand-gray antialiased;
     line-height: 1.5;
+    background-color: #F2F2F2;
   }
   h1, h2, h3, h4 {
     @apply font-slab text-brand-blue;
