@@ -2,7 +2,7 @@ import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-x-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-x-clip">
       <div className="absolute inset-0 bg-gradient-to-br from-brand-blue via-brand-dark-blue to-brand-blue" />
       <div className="absolute inset-0 opacity-20">
         <img
