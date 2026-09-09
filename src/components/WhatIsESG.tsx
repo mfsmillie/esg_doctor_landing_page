@@ -4,7 +4,7 @@ export default function WhatIsESG() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-8">
-            What Is ESG with EndoZip™?
+            What Is Stomach Remodeling
           </h2>
         </div>
 
@@ -30,8 +30,8 @@ export default function WhatIsESG() {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-br from-brand-green/10 to-brand-blue/10 rounded-3xl blur-xl" />
             <img
-              src="https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Medical procedure technology"
+              src="/images/how-it-works/man.png"
+              alt="Doctor consulting with patient"
               className="relative rounded-2xl shadow-lg w-full object-cover h-80"
             />
           </div>

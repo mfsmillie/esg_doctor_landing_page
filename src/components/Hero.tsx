@@ -4,12 +4,14 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-x-clip">
       <div className="absolute inset-0 bg-gradient-to-br from-brand-blue via-brand-dark-blue to-brand-blue" />
-      <div className="absolute inset-0 opacity-20">
+
+      <div className="absolute inset-0">
         <img
-          src="https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1920"
-          alt="Physician consulting with patient"
-          className="w-full h-full object-cover"
+          src="/images/hero/Screenshot_2026-09-09_at_11.40.04_AM.png"
+          alt="Smiling woman"
+          className="w-full h-full object-cover object-top"
         />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark-blue via-brand-dark-blue/40 to-transparent" />
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
