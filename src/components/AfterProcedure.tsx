@@ -12,7 +12,7 @@ export default function AfterProcedure() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-              Your Role After ESG
+              Your Role After the Procedure
             </h2>
             <div className="space-y-5 text-lg text-brand-gray/80 leading-relaxed">
               <p>
