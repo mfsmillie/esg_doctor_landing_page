@@ -30,8 +30,8 @@ export default function WhatIsESG() {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-br from-brand-green/10 to-brand-blue/10 rounded-3xl blur-xl" />
             <img
-              src="/images/how-it-works/man.png"
-              alt="Doctor consulting with patient"
+              src="/images/obesity-care/man.png"
+              alt="Patient with doctor during consultation"
               className="relative rounded-2xl shadow-lg w-full object-cover h-80"
             />
           </div>
