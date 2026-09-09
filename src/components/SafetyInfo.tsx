@@ -1,9 +1,6 @@
-import { useState } from 'react';
 import { AlertTriangle } from 'lucide-react';
 
 export default function SafetyInfo() {
-  const [expanded, setExpanded] = useState(false);
-
   return (
     <section id="safety" className="py-20 lg:py-28 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,41 +35,30 @@ export default function SafetyInfo() {
               </p>
             </div>
 
-            {expanded && (
-              <>
-                <div>
-                  <h3 className="font-bold text-brand-gray text-lg mb-2">
-                    Materials in contact with the body
-                  </h3>
-                  <p>
-                    Implanted components include polypropylene suture and TECAPEEK MT.
-                  </p>
-                  <p className="mt-2">
-                    These materials are widely used in medical devices and have been evaluated
-                    for compatibility with the human body.
-                  </p>
-                </div>
+            <div>
+              <h3 className="font-bold text-brand-gray text-lg mb-2">
+                Materials in contact with the body
+              </h3>
+              <p>
+                Implanted components include polypropylene suture and TECAPEEK MT.
+              </p>
+              <p className="mt-2">
+                These materials are widely used in medical devices and have been evaluated
+                for compatibility with the human body.
+              </p>
+            </div>
 
-                <div>
-                  <h3 className="font-bold text-brand-gray text-lg mb-2">
-                    When to contact your physician
-                  </h3>
-                  <p>
-                    Contact your physician promptly if you experience unexpected or concerning
-                    symptoms after the procedure, including severe abdominal pain, persistent
-                    vomiting, bleeding, fever, or difficulty breathing.
-                  </p>
-                </div>
-              </>
-            )}
+            <div>
+              <h3 className="font-bold text-brand-gray text-lg mb-2">
+                When to contact your physician
+              </h3>
+              <p>
+                Contact your physician promptly if you experience unexpected or concerning
+                symptoms after the procedure, including severe abdominal pain, persistent
+                vomiting, bleeding, fever, or difficulty breathing.
+              </p>
+            </div>
           </div>
-
-          <button
-            onClick={() => setExpanded(!expanded)}
-            className="mt-6 text-brand-blue font-semibold hover:text-brand-dark-blue transition-colors"
-          >
-            {expanded ? 'Show Less' : 'Read Full Safety Information'}
-          </button>
         </div>
       </div>
     </section>
