@@ -63,6 +63,10 @@ export default function Hero() {
           viewBox="0 0 960 56"
         >
           <defs>
+            <linearGradient id="teeth-gradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0%" stopColor="#79bc00" />
+              <stop offset="100%" stopColor="#246dbb" />
+            </linearGradient>
             <pattern
               id="teeth-pattern"
               x="0"
@@ -75,8 +79,11 @@ export default function Hero() {
               <rect x="-5" y="30" width="10" height="24" rx="5" fill="white" />
               <rect x="27" y="30" width="10" height="24" rx="5" fill="white" />
             </pattern>
+            <mask id="teeth-mask">
+              <rect width="100%" height="100%" fill="url(#teeth-pattern)" />
+            </mask>
           </defs>
-          <rect width="100%" height="100%" fill="url(#teeth-pattern)" />
+          <rect width="100%" height="100%" fill="url(#teeth-gradient)" mask="url(#teeth-mask)" />
         </svg>
       </div>
 
