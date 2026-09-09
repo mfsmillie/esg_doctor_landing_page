@@ -45,8 +45,8 @@ export default function AfterProcedure() {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-br from-brand-green/20 to-brand-blue/20 rounded-3xl blur-2xl" />
             <img
-              src="https://images.pexels.com/photos/4498362/pexels-photo-4498362.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Healthy lifestyle"
+              src="/images/how-it-works/couple.png"
+              alt="Couple walking together outdoors"
               className="relative rounded-2xl shadow-xl w-full object-cover h-[500px]"
             />
           </div>
