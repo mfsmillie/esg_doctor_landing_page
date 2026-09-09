@@ -2,57 +2,60 @@ import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-x-clip">
+    <section className="relative min-h-screen flex items-center justify-center overflow-x-clip bg-white">
       <div className="absolute inset-0 bg-gradient-to-br from-brand-blue via-brand-dark-blue to-brand-blue" />
 
-      <div className="absolute inset-0">
+      <div className="absolute inset-y-0 right-0 w-full lg:w-1/2">
         <img
           src="/images/hero/Screenshot_2026-09-09_at_11.40.04_AM.png"
           alt="Smiling woman"
           className="w-full h-full object-cover object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark-blue via-brand-dark-blue/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-dark-blue via-brand-dark-blue/60 to-transparent lg:via-transparent lg:to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark-blue via-transparent to-transparent" />
       </div>
 
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
-          Automated Stomach Remodeling
-          <span className="block mt-2">
-            with{' '}
-            <span className="text-white">
-              EndoZip™
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="max-w-2xl">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight">
+            Automated Stomach Remodeling
+            <span className="block mt-2">
+              with{' '}
+              <span className="text-white">
+                EndoZip™
+              </span>
             </span>
-          </span>
-        </h1>
+          </h1>
 
-        <p className="text-xl sm:text-2xl text-white/90 font-light mb-8">
-          A minimally invasive procedure to support weight loss
-        </p>
-
-        <div className="max-w-3xl mx-auto text-white/80 text-base sm:text-lg mb-10 space-y-4 leading-relaxed">
-          <p>
-            Endoscopic Sleeve Gastroplasty (ESG) with EndoZip™ is performed through the mouth,
-            with no external incisions and no stomach tissue removal.
+          <p className="text-xl sm:text-2xl text-white/90 font-light mb-8">
+            A minimally invasive procedure to support weight loss
           </p>
-          <p>
-            It may be an option for appropriate patients who are seeking a minimally invasive
-            approach to weight loss as part of a personalized obesity care plan.
-          </p>
-        </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href="#consultation"
-            className="inline-flex items-center px-8 py-4 rounded-lg bg-brand-green text-white font-semibold text-lg hover:bg-green-500 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-          >
-            Schedule a Consultation
-          </a>
-          <a
-            href="#what-is-esg"
-            className="inline-flex items-center px-8 py-4 rounded-lg border-2 border-white/30 text-white font-semibold text-lg hover:bg-white/10 transition-all"
-          >
-            Learn About ESG
-          </a>
+          <div className="max-w-xl text-white/80 text-base sm:text-lg mb-10 space-y-4 leading-relaxed">
+            <p>
+              Endoscopic Sleeve Gastroplasty (ESG) with EndoZip™ is performed through the mouth,
+              with no external incisions and no stomach tissue removal.
+            </p>
+            <p>
+              It may be an option for appropriate patients who are seeking a minimally invasive
+              approach to weight loss as part of a personalized obesity care plan.
+            </p>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-start gap-4">
+            <a
+              href="#consultation"
+              className="inline-flex items-center px-8 py-4 rounded-lg bg-brand-green text-white font-semibold text-lg hover:bg-green-500 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            >
+              Schedule a Consultation
+            </a>
+            <a
+              href="#what-is-esg"
+              className="inline-flex items-center px-8 py-4 rounded-lg border-2 border-white/30 text-white font-semibold text-lg hover:bg-white/10 transition-all"
+            >
+              Learn About ESG
+            </a>
+          </div>
         </div>
       </div>
 
