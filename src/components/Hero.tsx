@@ -70,7 +70,7 @@ export default function Hero() {
               height="56"
               patternUnits="userSpaceOnUse"
             >
-              <rect x="11" y="2" width="10" height="20" rx="5" fill="white" />
+              <rect x="11" y="6" width="10" height="20" rx="5" fill="white" />
               <rect x="-5" y="30" width="10" height="24" rx="5" fill="white" />
               <rect x="27" y="30" width="10" height="24" rx="5" fill="white" />
             </pattern>
