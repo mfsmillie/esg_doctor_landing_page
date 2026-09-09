@@ -2,34 +2,32 @@ import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-x-clip">
+    <section className="relative min-h-screen flex items-center justify-center overflow-x-clip bg-white">
       <div className="absolute inset-0">
         <img
           src="/images/hero/Screenshot_2026-09-09_at_11.40.04_AM.png"
           alt="Smiling woman"
           className="w-full h-full object-cover object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/20" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-gray mb-4 leading-tight">
             Automated Stomach Remodeling
             <span className="block mt-2">
               with{' '}
-              <span className="text-white">
+              <span className="text-brand-gray">
                 EndoZip™
               </span>
             </span>
           </h1>
 
-          <p className="text-xl sm:text-2xl text-white/90 font-light mb-8 drop-shadow">
+          <p className="text-xl sm:text-2xl text-brand-gray/80 font-light mb-8">
             A minimally invasive procedure to support weight loss
           </p>
 
-          <div className="max-w-xl text-white/85 text-base sm:text-lg mb-10 space-y-4 leading-relaxed drop-shadow">
+          <div className="max-w-xl text-brand-gray/70 text-base sm:text-lg mb-10 space-y-4 leading-relaxed">
             <p>
               Endoscopic Sleeve Gastroplasty (ESG) with EndoZip™ is performed through the mouth,
               with no external incisions and no stomach tissue removal.
@@ -49,7 +47,7 @@ export default function Hero() {
             </a>
             <a
               href="#what-is-esg"
-              className="inline-flex items-center px-8 py-4 rounded-lg border-2 border-white/30 text-white font-semibold text-lg hover:bg-white/10 transition-all backdrop-blur-sm"
+              className="inline-flex items-center px-8 py-4 rounded-lg border-2 border-brand-gray/30 text-brand-gray font-semibold text-lg hover:bg-brand-gray/5 transition-all"
             >
               Learn About ESG
             </a>
@@ -84,7 +82,7 @@ export default function Hero() {
 
       <a
         href="#obesity-care"
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 text-white/60 hover:text-white transition-colors animate-bounce"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 text-brand-gray/40 hover:text-brand-gray transition-colors animate-bounce"
       >
         <ChevronDown size={32} />
       </a>
