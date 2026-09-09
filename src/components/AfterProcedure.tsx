@@ -47,7 +47,7 @@ export default function AfterProcedure() {
             <img
               src="/images/how-it-works/couple.png"
               alt="Couple walking together outdoors"
-              className="relative rounded-2xl shadow-xl w-full object-cover h-[500px]"
+              className="relative rounded-2xl shadow-xl w-full object-cover object-top h-[500px]"
             />
           </div>
         </div>
