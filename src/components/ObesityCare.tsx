@@ -25,7 +25,7 @@ export default function ObesityCare() {
 
         <div className="mt-10 flex justify-center">
           <img
-            src="/images/obesity-care/lifestyle copy.png"
+            src="/images/lifestyle2.png"
             alt="Lifestyle Support — Foundation across all treatment options: Nutrition, Physical activity, Behavioral support"
             className="w-full max-w-2xl"
           />
