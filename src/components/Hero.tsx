@@ -13,21 +13,21 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-brand-gray mb-4 leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#b3b3b3] mb-4 leading-tight">
             Automated Stomach Remodeling
             <span className="block mt-2">
               with{' '}
-              <span className="text-brand-gray">
+              <span className="text-[#b3b3b3]">
                 EndoZip™
               </span>
             </span>
           </h1>
 
-          <p className="text-xl sm:text-2xl text-brand-gray/80 font-light mb-8">
+          <p className="text-xl sm:text-2xl text-[#b3b3b3]/80 font-light mb-8">
             A minimally invasive procedure to support weight loss
           </p>
 
-          <div className="max-w-xl text-brand-gray/70 text-base sm:text-lg mb-10 space-y-4 leading-relaxed">
+          <div className="max-w-xl text-[#b3b3b3]/70 text-base sm:text-lg mb-10 space-y-4 leading-relaxed">
             <p>
               Endoscopic Sleeve Gastroplasty (ESG) with EndoZip™ is performed through the mouth,
               with no external incisions and no stomach tissue removal.
@@ -47,7 +47,7 @@ export default function Hero() {
             </a>
             <a
               href="#what-is-esg"
-              className="inline-flex items-center px-8 py-4 rounded-lg border-2 border-brand-gray/30 text-brand-gray font-semibold text-lg hover:bg-brand-gray/5 transition-all"
+              className="inline-flex items-center px-8 py-4 rounded-lg border-2 border-[#b3b3b3]/30 text-[#b3b3b3] font-semibold text-lg hover:bg-[#b3b3b3]/5 transition-all"
             >
               Learn About ESG
             </a>
@@ -62,7 +62,7 @@ export default function Hero() {
 
       <a
         href="#obesity-care"
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 text-brand-gray/40 hover:text-brand-gray transition-colors animate-bounce"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 text-[#b3b3b3]/40 hover:text-[#b3b3b3] transition-colors animate-bounce"
       >
         <ChevronDown size={32} />
       </a>
