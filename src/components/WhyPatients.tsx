@@ -1,6 +1,6 @@
 export default function WhyPatients() {
   return (
-    <section id="why-patients" className="py-20 lg:py-28 bg-white">
+    <section id="is-it-right" className="py-20 lg:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="max-w-xl">
