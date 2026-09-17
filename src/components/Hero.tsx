@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl">
           <img
-            src="/images/EndoZip_Logo_FullColor_Display_X3.jpg"
+            src="/images/EndoZip_Logo_FullColor_Display_X3.png"
             alt="EndoZip Logo"
             className="h-12 sm:h-14 lg:h-16 w-auto mb-6"
           />
