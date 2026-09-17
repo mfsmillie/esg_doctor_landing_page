@@ -53,12 +53,6 @@ export default function HowItWorks() {
           ))}
         </div>
 
-        <div className="mt-14 max-w-3xl mx-auto text-center">
-          <p className="text-brand-gray/80 text-lg leading-relaxed">
-            Your physician determines whether ESG with EndoZip™ may be appropriate based on
-            your anatomy, health history, and treatment goals.
-          </p>
-        </div>
       </div>
     </section>
   );
