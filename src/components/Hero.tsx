@@ -56,7 +56,7 @@ export default function Hero() {
       </div>
 
       <div
-        className="absolute bottom-0 left-0 right-0 z-10 h-3"
+        className="absolute bottom-0 left-0 right-0 z-10 h-[40px]"
         style={{ background: 'linear-gradient(to right, #4a90c4, #5a9a8e, #8ab530, #a0c800)' }}
       />
 
