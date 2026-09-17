@@ -19,7 +19,7 @@ export default function Hero() {
             className="h-12 sm:h-14 lg:h-16 w-auto mb-2 mt-[25px]"
           />
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#3f3f3f] mb-4 leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#6f7172] mb-4 leading-tight">
             Automated Stomach Remodeling
           </h1>
 
