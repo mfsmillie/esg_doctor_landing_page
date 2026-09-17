@@ -13,14 +13,14 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl">
+          <img
+            src="/images/EndoZip_Logo_FullColor_Display_X3.jpg"
+            alt="EndoZip Logo"
+            className="h-12 sm:h-14 lg:h-16 w-auto mb-6"
+          />
+
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#3f3f3f] mb-4 leading-tight">
             Automated Stomach Remodeling
-            <span className="block mt-2">
-              with{' '}
-              <span className="text-[#3f3f3f]">
-                EndoZip™
-              </span>
-            </span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-[#3f3f3f]/80 font-light mb-8">
