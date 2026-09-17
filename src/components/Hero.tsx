@@ -55,37 +55,10 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 z-10 translate-y-1/2">
-        <svg
-          className="w-full block"
-          preserveAspectRatio="xMidYMid slice"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 960 56"
-        >
-          <defs>
-            <linearGradient id="teeth-gradient" x1="0" y1="0" x2="1" y2="0">
-              <stop offset="0%" stopColor="#79bc00" />
-              <stop offset="100%" stopColor="#246dbb" />
-            </linearGradient>
-            <pattern
-              id="teeth-pattern"
-              x="0"
-              y="0"
-              width="32"
-              height="56"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect x="11" y="6" width="10" height="20" rx="5" fill="white" />
-              <rect x="-5" y="30" width="10" height="24" rx="5" fill="white" />
-              <rect x="27" y="30" width="10" height="24" rx="5" fill="white" />
-            </pattern>
-            <mask id="teeth-mask">
-              <rect width="100%" height="100%" fill="url(#teeth-pattern)" />
-            </mask>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#teeth-gradient)" mask="url(#teeth-mask)" />
-        </svg>
-      </div>
+      <div
+        className="absolute bottom-0 left-0 right-0 z-10 h-3"
+        style={{ background: 'linear-gradient(to right, #4a90c4, #5a9a8e, #8ab530, #a0c800)' }}
+      />
 
       <a
         href="#obesity-care"
