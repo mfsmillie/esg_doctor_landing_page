@@ -16,7 +16,7 @@ export default function Hero() {
           <img
             src="/images/EndoZip_Logo_FullColor_Display_X3.png"
             alt="EndoZip Logo"
-            className="h-12 sm:h-14 lg:h-16 w-auto mb-6 mt-[25px]"
+            className="h-12 sm:h-14 lg:h-16 w-auto mb-2 mt-[25px]"
           />
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#3f3f3f] mb-4 leading-tight">
