@@ -17,8 +17,8 @@ export default function App() {
       <ObesityCare />
       <WhatIsESG />
       <HowItWorks />
-      <WhyPatients />
       <AfterProcedure />
+      <WhyPatients />
       <SafetyInfo />
       <ConsultationForm />
       <Footer />
