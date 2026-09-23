@@ -17,7 +17,7 @@ export default function ObesityCare() {
 
         <div className="mt-14 flex justify-center">
           <img
-            src="/images/obesity-care/personal.png"
+            src="/images/lifestyle2.png"
             alt="A personalized obesity care plan showing Medical therapy, Lifestyle Support, Stomach remodeling, and Bariatric surgery"
             className="w-full max-w-2xl"
           />
