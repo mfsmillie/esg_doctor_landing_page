@@ -13,18 +13,12 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="max-w-2xl">
-          <img
-            src="/images/EndoZip_Logo_FullColor_Display_X3.png"
-            alt="EndoZip Logo"
-            className="h-12 sm:h-14 lg:h-16 w-auto mb-2 mt-[25px]"
-          />
-
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#6f7172] mb-4 leading-tight">
             Stomach Remodeling with{' '}
             <img
               src="/images/EndoZip_Logo_FullColor_Display_X3.png"
               alt="EndoZip™"
-              className="inline-block h-[1em] w-auto align-baseline relative top-[0.15em]"
+              className="inline-block h-[1em] w-auto align-baseline relative top-[calc(0.15em+4px)]"
             />
           </h1>
 
