@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
@@ -10,27 +10,14 @@ const navLinks = [
 ];
 
 export default function Header() {
-  const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
-
   return (
-    <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
-      }`}
-    >
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md py-3">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <div className={`h-9 px-3 rounded border flex items-center justify-center ${
-            scrolled ? 'border-gray-200 bg-gray-50' : 'border-white/20 bg-white/10'
-          } transition-colors`}>
-            <span className={`text-sm font-semibold ${scrolled ? 'text-brand-gray' : 'text-white'} transition-colors`}>
+          <div className="h-9 px-3 rounded border border-gray-200 bg-gray-50 flex items-center justify-center">
+            <span className="text-sm font-semibold text-brand-gray">
               [Practice Logo]
             </span>
           </div>
@@ -41,9 +28,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-brand-green ${
-                scrolled ? 'text-brand-gray' : 'text-white'
-              }`}
+              className="text-sm font-medium text-brand-gray transition-colors hover:text-brand-green"
             >
               {link.label}
             </a>
@@ -52,7 +37,7 @@ export default function Header() {
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className={`lg:hidden p-2 rounded-md ${scrolled ? 'text-brand-gray' : 'text-white'}`}
+          className="lg:hidden p-2 rounded-md text-brand-gray"
           aria-label="Toggle menu"
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
