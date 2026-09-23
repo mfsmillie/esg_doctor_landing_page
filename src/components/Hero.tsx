@@ -20,7 +20,7 @@ export default function Hero() {
           />
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#6f7172] mb-4 leading-tight">
-            Automated Stomach Remodeling
+            Stomach Remodeling with EndoZip™
           </h1>
 
           <p className="text-xl sm:text-2xl text-[#3f3f3f]/80 font-light mb-8">
@@ -29,8 +29,13 @@ export default function Hero() {
 
           <div className="max-w-xl text-[#3f3f3f]/70 text-base sm:text-lg mb-10 space-y-4 leading-relaxed">
             <p>
-              Endoscopic Sleeve Gastroplasty (ESG) with EndoZip™ is performed through the mouth,
-              with no external incisions and no stomach tissue removal.
+              Stomach remodeling with EndoZip™ is performed through the mouth, with no external
+              incisions and no stomach tissue removal.
+            </p>
+            <p>
+              Clinically known as Endoscopic Sleeve Gastroplasty, or ESG, this procedure is
+              designed to reduce stomach volume from within and support smaller portions when
+              combined with long-term dietary and lifestyle changes.
             </p>
             <p>
               It may be an option for appropriate patients who are seeking a minimally invasive
