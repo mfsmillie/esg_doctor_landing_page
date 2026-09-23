@@ -18,7 +18,7 @@ export default function Hero() {
             <img
               src="/images/EndoZip_Logo_FullColor_Display_X3.png"
               alt="EndoZip™"
-              className="inline-block h-[1em] w-auto align-baseline relative top-[calc(0.15em+4px)]"
+              className="inline-block h-[1em] w-auto align-baseline relative top-[calc(0.15em+3px)]"
             />
           </h1>
 
