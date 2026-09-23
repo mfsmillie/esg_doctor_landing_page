@@ -1,6 +1,6 @@
 export default function WhatIsESG() {
   return (
-    <section id="what-is-esg" className="py-20 lg:py-28 bg-white">
+    <section id="what-is-esg" className="py-20 lg:py-28 bg-[#f8f8fc]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-8">

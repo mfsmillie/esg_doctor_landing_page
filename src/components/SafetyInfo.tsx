@@ -1,6 +1,6 @@
 export default function SafetyInfo() {
   return (
-    <section id="safety" className="py-20 lg:py-28 bg-white">
+    <section id="safety" className="py-20 lg:py-28 bg-[#f8f8fc]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl font-bold text-brand-gray mb-8">
           Important Patient Safety Information
