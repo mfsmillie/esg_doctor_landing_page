@@ -2,7 +2,7 @@ import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-x-clip bg-white">
+    <section className="relative min-h-screen flex items-start overflow-x-clip bg-white pt-28 pb-24">
       <div className="absolute inset-0">
         <img
           src="/images/hero/Screenshot_2026-09-09_at_11.40.04_AM.png"
