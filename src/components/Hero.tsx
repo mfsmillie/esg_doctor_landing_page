@@ -15,11 +15,14 @@ export default function Hero() {
         <div className="max-w-2xl">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#6f7172] mb-4 leading-tight">
             Stomach Remodeling with{' '}
-            <img
-              src="/images/EndoZip_Logo_FullColor_Display_X3.png"
-              alt="EndoZip™"
-              className="inline-block h-[1em] w-auto align-baseline relative top-[calc(0.15em+3px)]"
-            />
+            <span className="inline-flex items-baseline">
+              <img
+                src="/images/EndoZip_Logo_FullColor_Display_X3.png"
+                alt="EndoZip"
+                className="inline-block h-[1em] w-auto align-baseline relative top-[calc(0.15em+3px)]"
+              />
+              <span className="text-[0.5em] align-super relative -top-[0.3em] ml-0.5">™</span>
+            </span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-[#3f3f3f]/80 font-light mb-8">
