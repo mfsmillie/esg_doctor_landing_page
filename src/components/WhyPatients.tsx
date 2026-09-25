@@ -9,14 +9,13 @@ export default function WhyPatients() {
             </h2>
             <div className="space-y-5 text-lg text-brand-gray/80 leading-relaxed">
               <p>
-                EndoZip™ may be an option for patients seeking a minimally invasive approach to
-                stomach remodeling to support weight loss and who are ready to commit to long-term
-                dietary and lifestyle changes.
+                ESG Stomach Remodeling with EndoZip™ may be an option for appropriate patients
+                seeking a minimally invasive approach to support weight loss as part of a
+                personalized obesity care plan.
               </p>
               <p>
-                For appropriate patients, EndoZip may provide a minimally invasive option within a
-                personalized obesity care plan—alongside medical therapy, lifestyle support and,
-                when appropriate, bariatric surgery.
+                Long-term dietary and lifestyle changes are an important part of treatment. Talk
+                with your physician about whether ESG Stomach Remodeling may be appropriate for you.
               </p>
             </div>
           </div>
