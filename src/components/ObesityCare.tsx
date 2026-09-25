@@ -33,8 +33,9 @@ export default function ObesityCare() {
 
         <div className="mt-12 max-w-3xl mx-auto text-center">
           <p className="text-brand-gray/80 text-lg leading-relaxed">
-            For appropriate patients, ESG with EndoZip™ may be one minimally invasive option
-            within a personalized obesity care plan.
+            For appropriate patients, ESG Stomach Remodeling with EndoZip™ may provide a
+            minimally invasive option within a personalized obesity care plan—alongside medical
+            therapy, lifestyle support and, when appropriate, bariatric surgery.
           </p>
         </div>
       </div>
