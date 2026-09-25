@@ -40,7 +40,7 @@ export default function HowItWorks() {
               {idx < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-14 left-[60%] w-[80%] h-px bg-gradient-to-r from-brand-green/40 to-brand-blue/40" />
               )}
-              <div className={`relative z-10 mx-auto mb-5 group-hover:scale-105 transition-transform ${idx === 0 ? 'w-20 h-20' : 'w-28 h-28'}`}>
+              <div className={`relative z-10 h-28 mx-auto mb-5 group-hover:scale-105 transition-transform ${idx === 0 ? 'w-20' : 'w-28'}`}>
                 <img
                   src={step.image}
                   alt={step.title}
