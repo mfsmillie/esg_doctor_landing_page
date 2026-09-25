@@ -5,7 +5,7 @@ export default function WhyPatients() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="max-w-xl">
             <h2 className="text-3xl sm:text-4xl font-bold mb-8">
-              Is Stomach Remodeling with EndoZip™ Right for You?
+              Is ESG Stomach Remodeling with EndoZip™ Right for You?
             </h2>
             <div className="space-y-5 text-lg text-brand-gray/80 leading-relaxed">
               <p>

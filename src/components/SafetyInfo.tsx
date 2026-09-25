@@ -9,7 +9,7 @@ export default function SafetyInfo() {
         <div className="space-y-6 text-brand-gray/80 leading-relaxed">
           <p>
             Talk with your physician to fully understand the potential benefits, risks, and
-            alternatives associated with Endoscopic Sleeve Gastroplasty with EndoZip™. Your
+            alternatives associated with ESG Stomach Remodeling with EndoZip™. Your
             physician will determine whether this procedure is appropriate for you.
           </p>
 
