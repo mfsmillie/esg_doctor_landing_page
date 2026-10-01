@@ -147,13 +147,6 @@ export default function FaqModal({ open, onClose }: FaqModalProps) {
               Contact us to discuss if ESG Stomach Remodeling with EndoZip{'\u2122'}{' '}
               is right for you.
             </p>
-            <div className="flex justify-center">
-              <div className="h-14 px-6 rounded-lg border border-gray-200 bg-gray-50 flex items-center justify-center">
-                <span className="text-sm text-brand-gray/50 font-condensed">
-                  [Practice Logo]
-                </span>
-              </div>
-            </div>
             <p className="text-xs text-brand-gray/50 text-center leading-relaxed max-w-lg mx-auto">
               This FAQ provides general information and does not replace
               consultation with your physician. Your physician can discuss whether
