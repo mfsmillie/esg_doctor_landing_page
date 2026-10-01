@@ -148,9 +148,12 @@ export default function ConsultationForm() {
                   id="phone"
                   type="tel"
                   value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                  onChange={(e) => {
+                    const val = e.target.value.replace(/[^\d+\-() ]/g, '');
+                    setFormData({ ...formData, phone: val });
+                  }}
                   className="w-full rounded-lg border border-gray-200 px-4 py-3 text-brand-gray focus:outline-none focus:ring-2 focus:ring-brand-blue/30 focus:border-brand-blue transition-colors"
-                  placeholder="(555) 123-4567"
+                  placeholder="+1 (555) 123-4567"
                 />
               </div>
 
