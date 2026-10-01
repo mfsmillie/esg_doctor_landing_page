@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
           <nav className="flex flex-wrap items-center justify-center gap-6">
             <a href="#what-is-esg" className="text-white/70 text-sm hover:text-white transition-colors">
-              What is ESG
+              What is ESG Stomach Remodeling
             </a>
             <a href="#how-it-works" className="text-white/70 text-sm hover:text-white transition-colors">
               How It Works
