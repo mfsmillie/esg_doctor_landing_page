@@ -3,12 +3,6 @@ export default function Footer() {
     <footer className="bg-brand-gray py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
-          <div className="flex items-center gap-3">
-            <span className="font-slab font-bold text-xl text-white">
-              EndoZip<span className="text-xs align-super">™</span>
-            </span>
-            <span className="text-white/50 text-sm font-condensed">by NitiNotes</span>
-          </div>
           <nav className="flex flex-wrap items-center justify-center gap-6">
             <a href="#what-is-esg" className="text-white/70 text-sm hover:text-white transition-colors">
               What is ESG Stomach Remodeling
