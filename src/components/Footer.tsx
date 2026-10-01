@@ -26,23 +26,7 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className="border-t border-white/10 pt-8">
-          <div className="text-white/50 text-xs leading-relaxed max-w-4xl">
-            <p className="mb-3">
-              EndoZip™ is a trademark of NitiNotes Surgical Ltd. The information on this website
-              is intended for educational purposes only and does not constitute medical advice.
-              Always consult with a qualified healthcare professional regarding your health and
-              treatment options.
-            </p>
-            <p className="mb-3">
-              Results may vary. Weight loss outcomes depend on individual factors including
-              adherence to post-procedure lifestyle modifications.
-            </p>
-            <p>
-              &copy; {new Date().getFullYear()} NitiNotes Surgical Ltd. All rights reserved.
-            </p>
-          </div>
-        </div>
+
       </div>
     </footer>
   );

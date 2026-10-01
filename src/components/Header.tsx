@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const navLinks = [
-  { href: '#what-is-esg', label: 'What is ESG' },
+  { href: '#what-is-esg', label: 'What is ESG Stomach Remodeling' },
   { href: '#how-it-works', label: 'How It Works' },
   { href: '#after-procedure', label: 'After the Procedure' },
   { href: '#is-it-right', label: 'Is It Right for You' },
