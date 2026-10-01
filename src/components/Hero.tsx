@@ -31,7 +31,7 @@ export default function Hero() {
 
           <div className="max-w-xl text-[#3f3f3f]/70 text-base sm:text-lg mb-10 space-y-4 leading-relaxed">
             <p>
-              Stomach remodeling with EndoZip™ is performed through the mouth, with no external
+              ESG Stomach Remodeling with EndoZip™ is performed through the mouth, with no external
               incisions and no stomach tissue removal.
             </p>
             <p>

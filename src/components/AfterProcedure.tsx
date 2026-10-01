@@ -15,7 +15,7 @@ export default function AfterProcedure() {
           </h2>
           <div className="space-y-5 text-lg text-brand-gray/80 leading-relaxed">
             <p>
-              EndoZip™ is intended to be used in combination with appropriate dietary and
+              ESG Stomach Remodeling with EndoZip™ is intended to be used in combination with appropriate dietary and
               lifestyle changes.
             </p>
             <p>
