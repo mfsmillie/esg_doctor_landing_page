@@ -38,7 +38,7 @@ const faqItems = [
   {
     question: 'What symptoms should I report after the procedure?',
     answer:
-      'Contact your physician promptly if you experience unexpected or concerning symptoms, including:\n\n\u2022 Severe abdominal pain\n\u2022 Persistent vomiting\n\u2022 Bleeding\n\u2022 Fever\n\u2022 Difficulty breathing',
+      'Contact your physician promptly if you experience unexpected or concerning symptoms, including:\n\n\u2022 Severe abdominal pain\n\u2022 Persistent vomiting\n\u2022 Bleeding\n\u2022 Fever\n\u2022 Difficulty breathing or swallowing',
   },
   {
     question: 'Is ESG Stomach Remodeling with EndoZip\u2122 right for me?',
